@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa2d7242-f604-4d5a-b2cb-eecc20d8ce91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/Controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/Controllers/RestControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/config/RoleConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projectcamera/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/CategoriesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/ImageProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/PropertiesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/controllers/StaffController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/dto/AccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/dto/CategoriesDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Brands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Categories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Images.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/OrderDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Products.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/entity/Staff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/AccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/CartDetailRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/CartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/CustomerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/ImageProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/OrderDetailRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/OrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/OrderResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/ProductAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/ProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/PropertiesRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/StaffRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/model/request/UpdateCartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/BrandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/CartDetailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/CartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/CategoriesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/ImageProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/OrderDetailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/PropertiesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/repository/StaffRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/responsentory/RoleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/responsentory/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/CartDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/CategoriesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/ImageProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/OrderDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/PropertiesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/StaffService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/AccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/BrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/CartDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/CartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/CategoriesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/CustomerServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/ImageProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/OrderDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/PropertiesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/java/com/camera/projectcamera/service/impl/StaffServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectcamera/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/projectcamera/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projectcamera" />
+  </component>
+  <component name="ProjectId" id="2bIXXjmibwB9RCJy6CyA8L6Md3W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projectcamera" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa2d7242-f604-4d5a-b2cb-eecc20d8ce91" name="Default Changelist" comment="" />
+      <created>1705903607772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705903607772</updated>
+      <workItem from="1705903609375" duration="22000" />
+      <workItem from="1705905353884" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
