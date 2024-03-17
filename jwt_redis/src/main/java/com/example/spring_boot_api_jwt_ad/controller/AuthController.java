@@ -17,15 +17,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
-
-import java.util.HashMap;
-import java.util.Map;
 
 @RestController
 public class AuthController {
-    @Autowired
-    private RestTemplate restTemplate;
 
     @Autowired
     private UserService userService;
@@ -73,23 +67,8 @@ public class AuthController {
         return ResponseEntity.ok("hello");
     }
 
-    @GetMapping("/user")
-    @PreAuthorize("hasAnyAuthority('USER_READ')")
-    public Object getForObjectUser() {
-        String apiUrl = "http://localhost:8084/rest/user";
-        return restTemplate.getForObject(apiUrl, Object.class);
-    }
 
-    @GetMapping("/product")
-    public Object getForObjectProduct() {
-        String apiUrl = "http://localhost:8084/rest/product";
-        return restTemplate.getForObject(apiUrl, Object.class);
-    }
-    @GetMapping("/productUser")
-    public Object getForObjectOrder() {
-        String apiUrl = "http://localhost:8084/rest/productUser";
-        return restTemplate.getForObject(apiUrl, Object.class);
-    }
+
 
 //    Object principal = SecurityContextHolder
 //            .getContext().getAuthentication().getPrincipal();
