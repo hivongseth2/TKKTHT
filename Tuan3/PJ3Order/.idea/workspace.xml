@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2d7242-f604-4d5a-b2cb-eecc20d8ce91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Redis/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Redis/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Redis/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/DTO/PostDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/RedisRepo/RedisRepoPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/beans/RedisBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/config/RoleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/controller/postController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/repository/PostReposentory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/service/PostServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jwt_redis/src/main/java/com/example/spring_boot_api_jwt_ad/util/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring_boot_api_jwt_ad/src/main/java/com/example/spring_boot_api_jwt_ad/config/RestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PJ4-GateWay/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PJ4-GateWay/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PJ2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PJ2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PJ2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PJ4-GateWay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PJ4-GateWay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projectcamera/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring_boot_api_jwt_ad/src/main/java/com/example/spring_boot_api_jwt_ad/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_boot_api_jwt_ad/src/main/java/com/example/spring_boot_api_jwt_ad/controller/AuthController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +39,22 @@
       <updated>1705903607772</updated>
       <workItem from="1705903609375" duration="22000" />
       <workItem from="1710140491541" duration="189000" />
+      <workItem from="1710745119701" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
